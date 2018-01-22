@@ -1,0 +1,20 @@
+{
+    "name": "macgriog/laravel-query-filters",
+    "description": "Eloquent query string filtering based on request parameters",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Mac Gregor",
+            "email": "macgregor.porta@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "laravel/framework": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Macgriog\\QueryFilters\\": "src/"
+        }
+    }
+}
